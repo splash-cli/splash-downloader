@@ -1,0 +1,30 @@
+{
+  "name": "@splash-cli/splash-download",
+  "version": "1.0.0",
+  "description": "Download unsplash images",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "download",
+    "unsplash"
+  ],
+  "author": "Federico Vitale <fedevitale99@gmail.com> (federicovitale.me)",
+  "license": "MIT",
+  "dependencies": {
+    "@splash-cli/is-month": "^1.0.1",
+    "@splash-cli/parse-exif": "^1.0.0",
+    "@splash-cli/show-copy": "^1.0.0",
+    "chalk": "^2.3.2",
+    "conf": "^1.4.0",
+    "ora": "^2.0.0",
+    "wallpaper": "^2.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
