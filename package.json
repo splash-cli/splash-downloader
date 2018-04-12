@@ -1,18 +1,23 @@
 {
-  "name": "@splash-cli/splash-download",
+  "name": "@splash-cli/splash-downloader",
   "version": "1.0.0",
-  "description": "Download unsplash images",
+  "description": "Download unsplash api photos",
   "main": "build/index.js",
+  "repository": "https://github.com/splash-cli/splash-downloader.git",
+  "author": "Federico Vitale <fedevitale99@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/splash-cli/splash-downloader#readme",
   "scripts": {
     "build": "babel src -d build",
     "prepublish": "npm run build"
   },
-  "keywords": [
-    "download",
-    "unsplash"
-  ],
-  "author": "Federico Vitale <fedevitale99@gmail.com> (federicovitale.me)",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splash-cli/splash-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/splash-cli/splash-downloader/issues"
+  },
   "dependencies": {
     "@splash-cli/is-month": "^1.0.1",
     "@splash-cli/parse-exif": "^1.0.0",

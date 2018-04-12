@@ -1,18 +1,18 @@
-# splash-download
+# splash-downloader
 > Download unsplash photos
 
 ## Install
 ```sh
-	$ npm install @splash-cli/splash-download --save
+	$ npm install @splash-cli/splash-downloader --save
 
 	#or
 
-	$ yarn add @splash-cli/splash-download
+	$ yarn add @splash-cli/splash-downloader
 ```
 
 ## Usage
 ```js
-	import download from '@splash-cli/splash-download';
+	import download from '@splash-cli/splash-downloader';
 
 	download(flags, photInfo, setAsWallpaper);
 	//=> promise
