@@ -9,7 +9,7 @@
   "homepage": "https://github.com/splash-cli/splash-downloader#readme",
   "scripts": {
     "build": "babel src -d build",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
