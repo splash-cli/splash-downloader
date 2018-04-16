@@ -1,0 +1,6 @@
+{
+	"extends": "unsplash",
+	"rules": {
+		"no-console": "off"
+	}
+}

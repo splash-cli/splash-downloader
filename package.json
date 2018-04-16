@@ -25,6 +25,7 @@
     "@splash-cli/is-month": "latest",
     "@splash-cli/parse-exif": "latest",
     "@splash-cli/show-copy": "latest",
+    "babel-polyfill": "^6.26.0",
     "chalk": "^2.3.2",
     "conf": "^1.4.0",
     "ora": "^2.0.0",
@@ -32,7 +33,9 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-unsplash": "^0.2.2",
+    "np": "*"
   }
 }
